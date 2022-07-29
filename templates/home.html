@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block title %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/mio.css')}}" media="screen">
+<link rel="stylesheet" href="../static/css/footer.css">
+<title>Modelamiento y simulación</title>
+{% endblock %}
+
+{% block content %}
+<section><br>
+    <h2> Proyecto de modelamiento y simulación </h2>
+    <center><span style="font-size: 1em;">Sexto semestre A - Tecnología de la información y comunicación</span></center>
+    <div class="producto-img centrar">
+        <img src="/static/./image/modelamiento.png" alt="">
+    </div><br><br>
+    
+    <section class="info">
+        <h3 style="color:rgb(137, 64, 126); font-weight:bold"> Sistema de la vida real sobre Denuncias del Sector
+            Privado<br> Ministerio de Trabajo - Junio 2022</h3>
+        <br>
+        <center><span>Inicialmente se presentará la descripción general del sistema de base de datos sobre las Denuncias
+                del Sector Privado, las cuales son notificación que realiza el trabajador o ex trabajador de una o varias
+                 vulneraciones a los derechos que le asiste, desagregado por Regional del Trabajo desde Enero del 2021 a Junio 2022. 
+                Observando un total de 2247690 denuncias del sector privado de varias ciudades de país, tales como
+                Ibarra, Quito,
+                Ambato, Portoviejo, Loja, Cuenca y Guayaquil. Estos datos fueron obtenidos de forma limpia, sin procesar
+                y actualizados por la
+                Dirección de Control e Inspecciones del Ministerio de Trabajo.
+                De acuerdo con la información extraída se analizó que: <br>
+                Guayaquil tuvo 393.442 denuncias ingresadas y 325.222 denuncias atendidas siendo la ciudad con mayor
+                cantidad de denuncias del sector privado. En segundo lugar se ubica Quito con 330.953 denuncias
+                ingresadas y 495.460 denuncias atendidas.
+                Y posteriormente, esta Portoviejo con 56.238 denuncias ingresadas y 99.797 denuncias atendidas
+                respectivamente. <br>
+                Además, se visualizará la evolución de las denuncias durante el año 2021 y 2022, indicando que obtuvo
+                una ascendencia de acuerdo al
+                manejo de las denuncias realizadas por los ciudadanos. <br>
+                <p style="color:#000000">Fuente de la base de datos utilizada: <a style="color:rgb(137, 64, 126) ;"
+                        href="https://www.datosabiertos.gob.ec/dataset/denuncias-del-sector-privado/resource/d79b0c50-f330-4cf1-b75d-86e1cf2ec9f8"
+                        target="_blank">Aquí</a></p>
+            </span></center><br>
+
+        <h6 style="color:rgb(42, 154, 209); font-weight:bold; font-size:1.1em"> Gráficos de las Denuncias del Sector
+            Privado</h6>
+        <center><img src="/static/./image/denuncias.png"></center><br>
+    </section> <br><br>
+    <section class="concep">
+        <h2>Conceptos básicos de modelamiento y simulación</h2>
+        <br>
+        <center><img height="300em"  src="/static/./image/simulacion.png"></center><br>
+        <span>
+                <b>Simulación:</b> Es una técnica de la investigación operativa junto con el análisis son procesos
+                matemáticos científicos probados que permiten a las
+                organizaciones convertir <br> desafíos complejos en oportunidades sustanciales al transformar los datos
+                en información y la información en ideas que salvan vidas,
+                ahorran dinero y resuelven problemas. <br>
+                <b>Sistema:</b> Es un proceso de componentes,
+                entidades, que están interrelacionadas y que interactúan juntos para lograr un objetivo común. <br>
+                <b>Modelo:</b> Es la representación de un sistema con cierto grado de precisión y en
+                la forma más completa posible, pero sin pretender aportar una réplica <br>de lo que existe en la
+                realidad.  <br> 
+                <b>Probabilidad y estadística:</b> Permiten recopilar y analizar datos con el fin de obtener
+                información, dibujar, obtener conclusiones y apoyo a la toma de decisiones. <br>  
+                <b>Números aleatorios: </b> Se definen como un conjunto de secuencias al azar. <br>
+                <b>Pronósticos: </b> Es la predicción del comportamiento de los datos en series de tiempo, que
+                 permite la  toma decisiones poder realizarcambios en el  comportamiento <br>  de los sistemas. <br>
+                <b>Módulo simulación: </b> Es una representación de la realidad que se hace con el fin de demostrar
+                algo que no puede ser  fácilmente visto o que no ha sucedido todavía. <br>
+                
+            </span>
+    </section>
+    <br><br><br>
+    {% endblock %}
+    <br><br><br><br>

@@ -1,0 +1,165 @@
+
+*{
+    font-family: 'PT Sans', sans-serif;
+  }
+.img_x{
+    /* text-align: center; */
+    width: 100%;
+    height: 550px;
+    padding: 10px 79px;
+}
+.home{
+    text-align: center;
+}
+.tema{
+    padding-right: 1em;
+    padding-left: 8em;
+    font-weight:bold;
+    color:rgb(137, 64, 126);
+    font-family: 'Dancing Script', cursive;
+}
+footer{
+    width: 100%;
+    background: #e5b4dd;
+    color: rgb(15, 15, 15);   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 1.5rem !important;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 200px;
+    
+}
+
+.colum3 h1{
+    font-size: 1.5rem !important;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 20px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+    font-size: 1rem ;
+    font-weight: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.info{
+    background-color: #dedede99;
+    padding: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.concep{
+    background-color: #dedede99;
+    padding-left: 5em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+   
+}
+
+.container-footer{
+    width: 100%;  
+    background: #949494;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #080808;
+    padding-left: 30em ;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
+
+.information a{
+    text-decoration: none;
+    color: #000000;
+}
+
+h4{
+    font-size: 18px;
+}  
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+
+.btn btn-danger{
+    background-color: rgb(137, 64, 126);
+}
